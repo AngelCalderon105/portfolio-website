@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "This GitHub repository contains the source code for my personal portfolio website as a Frontend Software Engineer. The website showcases my skills, experience, and projects in the field of web development and frontend engineering. It serves as a platform to display my work and connect with potential clients, employers, and fellow developers.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelCalderon105/portfolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelCalderon105/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/AngelCalderon105/portfolio-website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
