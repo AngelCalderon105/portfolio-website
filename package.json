@@ -4,6 +4,7 @@
   "description": "This GitHub repository contains the source code for my personal portfolio website as a Frontend Software Engineer. The website showcases my skills, experience, and projects in the field of web development and frontend engineering. It serves as a platform to display my work and connect with potential clients, employers, and fellow developers.",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
   },
   "repository": {

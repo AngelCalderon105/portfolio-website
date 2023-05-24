@@ -595,6 +595,10 @@ video {
   display: flex;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-48 {
   width: 12rem;
 }
@@ -680,14 +684,19 @@ video {
   padding: 0.5rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
 
-.px-80 {
-  padding-left: 20rem;
-  padding-right: 20rem;
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .text-center {
