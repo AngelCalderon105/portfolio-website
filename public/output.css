@@ -534,6 +534,10 @@ video {
   top: 0px;
 }
 
+.z-\[100\] {
+  z-index: 100;
+}
+
 .m-4 {
   margin: 1rem;
 }
@@ -971,4 +975,11 @@ video {
 .hover\:text-blue-500:hover {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:text-red-600 {
+    --tw-text-opacity: 1;
+    color: rgb(220 38 38 / var(--tw-text-opacity));
+  }
 }
