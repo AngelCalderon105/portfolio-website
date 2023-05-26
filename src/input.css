@@ -2,6 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.heading{
-    @apply text-6xl text-white p-2 m-8 mb-10 text-center;
-}
