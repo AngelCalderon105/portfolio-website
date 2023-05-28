@@ -679,6 +679,34 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+@keyframes float{
+  0%, 100%{
+    transform: translateY(0);
+  }
+
+  50%{
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float-image{
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%, 100%{
+    transform: translateY(0);
+  }
+
+  50%{
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float-words{
+  animation: float 5s ease-in-out infinite;
+}
+
 .list-disc{
   list-style-type: disc;
 }
@@ -743,8 +771,36 @@ video {
   background-color: rgb(10 10 10 / var(--tw-bg-opacity));
 }
 
+.bg-\[radial-gradient\(ellipse_at_center\2c _var\(--tw-gradient-stops\)\)\]{
+  background-image: radial-gradient(ellipse at center, var(--tw-gradient-stops));
+}
+
+.bg-\[radial-gradient\(ellipse_at_top\2c _var\(--tw-gradient-stops\)\)\]{
+  background-image: radial-gradient(ellipse at top, var(--tw-gradient-stops));
+}
+
+.bg-\[radial-gradient\(ellipse_at_top_right\2c _var\(--tw-gradient-stops\)\)\]{
+  background-image: radial-gradient(ellipse at top right, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-bl{
+  background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+}
+
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-t{
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-tl{
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-tr{
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
 
 .from-gray-700{
@@ -753,53 +809,55 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-gray-900{
+  --tw-gradient-from: #111827 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(17 24 39 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-slate-900{
+  --tw-gradient-from: #0f172a var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(15 23 42 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-custom-blue{
+  --tw-gradient-to: rgb(37 29 115 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #251d73 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
 .via-gray-900{
   --tw-gradient-to: rgb(17 24 39 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #111827 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-purple-900{
+  --tw-gradient-to: rgb(88 28 135 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #581c87 var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
 .to-black{
   --tw-gradient-to: #000 var(--tw-gradient-to-position);
 }
 
-.bg-cover{
-  background-size: cover;
+.to-gray-600{
+  --tw-gradient-to: #4b5563 var(--tw-gradient-to-position);
 }
 
-.bg-contain{
-  background-size: contain;
+.to-slate-900{
+  --tw-gradient-to: #0f172a var(--tw-gradient-to-position);
+}
+
+.bg-cover{
+  background-size: cover;
 }
 
 .bg-fixed{
   background-attachment: fixed;
 }
 
-.bg-center{
-  background-position: center;
-}
-
-.bg-left{
-  background-position: left;
-}
-
 .bg-right{
   background-position: right;
-}
-
-.bg-bottom{
-  background-position: bottom;
-}
-
-.bg-left-bottom{
-  background-position: left bottom;
-}
-
-.bg-left-top{
-  background-position: left top;
-}
-
-.bg-top{
-  background-position: top;
 }
 
 .p-1{
@@ -824,13 +882,12 @@ video {
   padding-right: 0.5rem;
 }
 
-.py-52{
-  padding-top: 13rem;
-  padding-bottom: 13rem;
-}
-
 .pb-3{
   padding-bottom: 0.75rem;
+}
+
+.pb-44{
+  padding-bottom: 11rem;
 }
 
 .pt-12{
@@ -843,6 +900,10 @@ video {
 
 .pt-16{
   padding-top: 4rem;
+}
+
+.pt-28{
+  padding-top: 7rem;
 }
 
 .text-center{
@@ -863,8 +924,8 @@ video {
   line-height: 2.5rem;
 }
 
-.text-6xl{
-  font-size: 3.75rem;
+.text-7xl{
+  font-size: 4.5rem;
   line-height: 1;
 }
 
@@ -986,32 +1047,12 @@ video {
     justify-content: center;
   }
 
-  .md\:bg-auto{
-    background-size: auto;
-  }
-
-  .md\:bg-cover{
-    background-size: cover;
-  }
-
   .md\:bg-contain{
     background-size: contain;
   }
 
   .md\:bg-center{
     background-position: center;
-  }
-
-  .md\:bg-top{
-    background-position: top;
-  }
-
-  .md\:bg-bottom{
-    background-position: bottom;
-  }
-
-  .md\:bg-left{
-    background-position: left;
   }
 
   .md\:p-2{
@@ -1021,6 +1062,11 @@ video {
   .md\:px-20{
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .md\:py-52{
+    padding-top: 13rem;
+    padding-bottom: 13rem;
   }
 
   .md\:text-3xl{
