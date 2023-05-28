@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
 
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
@@ -762,6 +762,46 @@ video {
   --tw-gradient-to: #000 var(--tw-gradient-to-position);
 }
 
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-contain{
+  background-size: contain;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-left{
+  background-position: left;
+}
+
+.bg-right{
+  background-position: right;
+}
+
+.bg-bottom{
+  background-position: bottom;
+}
+
+.bg-left-bottom{
+  background-position: left bottom;
+}
+
+.bg-left-top{
+  background-position: left top;
+}
+
+.bg-top{
+  background-position: top;
+}
+
 .p-1{
   padding: 0.25rem;
 }
@@ -782,6 +822,11 @@ video {
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.py-52{
+  padding-top: 13rem;
+  padding-bottom: 13rem;
 }
 
 .pb-3{
@@ -805,7 +850,7 @@ video {
 }
 
 .font-body{
-  font-family: Italianno;
+  font-family: Amiri;
 }
 
 .text-2xl{
@@ -939,6 +984,34 @@ video {
 
   .md\:justify-center{
     justify-content: center;
+  }
+
+  .md\:bg-auto{
+    background-size: auto;
+  }
+
+  .md\:bg-cover{
+    background-size: cover;
+  }
+
+  .md\:bg-contain{
+    background-size: contain;
+  }
+
+  .md\:bg-center{
+    background-position: center;
+  }
+
+  .md\:bg-top{
+    background-position: top;
+  }
+
+  .md\:bg-bottom{
+    background-position: bottom;
+  }
+
+  .md\:bg-left{
+    background-position: left;
   }
 
   .md\:p-2{
