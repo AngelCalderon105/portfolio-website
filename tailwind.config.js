@@ -12,12 +12,12 @@ module.exports = {
       keyframes: {
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-20px)' },
+          '50%': { transform: 'translateY(-30px)' },
         },
       },
       animation: {
-        'float-image': 'float 4s ease-in-out infinite',
-        'float-words': 'float 5s ease-in-out infinite',
+        'float-image': 'float 2.8s ease-in-out infinite',
+        'float-words': 'float 2.8s ease-in-out infinite',
       },
       
     },

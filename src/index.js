@@ -19,3 +19,19 @@ burger.addEventListener('click', () => {
             });
         });
     });
+
+
+const navbar = document.querySelector('nav');
+const section1 = document.querySelector('#section1');
+const section1OffsetTop = section1.offsetTop;
+
+window.addEventListener('scroll', () => {
+    if (window.pageYOffset >= section1OffsetTop) {
+        navbar.style.position = 'fixed';
+        navbar.style.top = '0';
+        navbar.classList.add('bg-black');
+    } else {
+        navbar.style.position = 'static';
+        navbar.classList.add('bg-transparent');
+    }
+});
