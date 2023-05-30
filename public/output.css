@@ -694,6 +694,10 @@ video {
   animation: float 2.8s ease-in-out infinite;
 }
 
+.resize{
+  resize: both;
+}
+
 .list-disc{
   list-style-type: disc;
 }
