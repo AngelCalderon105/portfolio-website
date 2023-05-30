@@ -953,10 +953,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-#home{
-  height: -webkit-fill-available;
-}
-
 .hover\:scale-110:hover{
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1062,3 +1058,4 @@ video {
     background-position: center;
   }
 }
+
