@@ -848,6 +848,10 @@ video {
   background-position: right;
 }
 
+.bg-center{
+  background-position: center;
+}
+
 .p-1{
   padding: 0.25rem;
 }
