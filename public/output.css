@@ -850,6 +850,10 @@ video {
   background-position: center;
 }
 
+.bg-right{
+  background-position: right;
+}
+
 .bg-no-repeat{
   background-repeat: no-repeat;
 }
