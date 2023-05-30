@@ -824,6 +824,10 @@ video {
   background-attachment: fixed;
 }
 
+.bg-scroll{
+  background-attachment: scroll;
+}
+
 .bg-right{
   background-position: right;
 }
@@ -1052,6 +1056,10 @@ video {
 @media (min-width: 1024px){
   .lg\:bg-contain{
     background-size: contain;
+  }
+
+  .lg\:bg-fixed{
+    background-attachment: fixed;
   }
 
   .lg\:bg-center{
