@@ -718,6 +718,10 @@ video {
   justify-content: space-evenly;
 }
 
+.self-center{
+  align-self: center;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
