@@ -28,9 +28,9 @@ window.addEventListener('scroll', function() {
 
     if (window.pageYOffset > offsetHeight) {
         navbar.classList.remove('md:bg-transparent');
-        navbar.classList.add('md:bg-black', 'top-0', 'fixed');
+        navbar.classList.add('md:bg-black', 'md:top-0', 'md:fixed');
     } else {
-        navbar.classList.remove('md:bg-black', 'top-0', 'fixed');
+        navbar.classList.remove('md:bg-black', 'md:top-0', 'md:fixed');
         navbar.classList.add('md:bg-transparent');
     }
 });
