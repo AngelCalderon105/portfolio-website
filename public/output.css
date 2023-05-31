@@ -528,18 +528,6 @@ video {
   position: fixed;
 }
 
-.absolute{
-  position: absolute;
-}
-
-.relative{
-  position: relative;
-}
-
-.sticky{
-  position: sticky;
-}
-
 .top-0{
   top: 0px;
 }
@@ -828,18 +816,6 @@ video {
   --tw-gradient-to: #0f172a var(--tw-gradient-to-position);
 }
 
-.bg-cover{
-  background-size: cover;
-}
-
-.bg-fixed{
-  background-attachment: fixed;
-}
-
-.bg-scroll{
-  background-attachment: scroll;
-}
-
 .bg-right{
   background-position: right;
 }
@@ -969,6 +945,19 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.fixed-background::before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url('https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center;
+  background-size: cover;
+}
+
 .hover\:scale-110:hover{
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1078,4 +1067,3 @@ video {
     background-position: center;
   }
 }
-

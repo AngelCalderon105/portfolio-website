@@ -20,6 +20,7 @@ module.exports = {
         'float-words': 'float 2.8s ease-in-out infinite',
       },
       
+      
     },
   },
   plugins: [],
