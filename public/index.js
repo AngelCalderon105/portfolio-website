@@ -51,6 +51,6 @@ function setElementHeight() {
 window.onscroll = function() {
     var scrolledY = window.scrollY;
     var bgImage = document.getElementById('home');
-    bgImage.style.backgroundPosition = 'center ' + ((scrolledY)*0.5) + 'px';
+    bgImage.style.backgroundPosition = 'center ' + ((scrolledY)) + 'px';
   }
 s  
