@@ -1066,10 +1066,6 @@ video {
 }
 
 @media (min-width: 1024px){
-  .lg\:bg-contain{
-    background-size: contain;
-  }
-
   .lg\:bg-fixed{
     background-attachment: fixed;
   }
