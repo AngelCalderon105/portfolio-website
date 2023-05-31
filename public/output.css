@@ -953,9 +953,19 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@supports (-webkit-overflow-scrolling: touch) {
-  .wp-block-cover-image.has-parallax, .wp-block-cover.has-parallax {
-    background-attachment:scroll;
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+
+  #home {
+    background-attachment: scroll;
+  }
+}
+
+@supports not (-webkit-touch-callout: none) {
+  /* CSS for other than iOS devices */
+
+  #home {
+    background-attachment: fixed;
   }
 }
 
@@ -1058,6 +1068,10 @@ video {
 @media (min-width: 1024px){
   .lg\:bg-contain{
     background-size: contain;
+  }
+
+  .lg\:bg-fixed{
+    background-attachment: fixed;
   }
 
   .lg\:bg-center{
