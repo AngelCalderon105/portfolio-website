@@ -820,6 +820,10 @@ video {
   background-size: cover;
 }
 
+.bg-fixed{
+  background-attachment: fixed;
+}
+
 .bg-right{
   background-position: right;
 }
@@ -949,11 +953,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@supports (-webkit-overflow-scrolling: touch) {
-  .wp-block-cover-image.has-parallax, .wp-block-cover.has-parallax {
-    background-attachment:scroll
-  }
-}
+/* @supports (-webkit-overflow-scrolling: touch) {
+    .wp-block-cover-image.has-parallax, .wp-block-cover.has-parallax {
+        background-attachment:scroll;
+    }
+} */
 
 .hover\:scale-110:hover{
   --tw-scale-x: 1.1;

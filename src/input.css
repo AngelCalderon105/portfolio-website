@@ -7,8 +7,8 @@
     @apply text-6xl text-white my-4 text-center;
 }
 
-@supports (-webkit-overflow-scrolling: touch) {
+/* @supports (-webkit-overflow-scrolling: touch) {
     .wp-block-cover-image.has-parallax, .wp-block-cover.has-parallax {
-        background-attachment:scroll
+        background-attachment:scroll;
     }
-}
+} */
