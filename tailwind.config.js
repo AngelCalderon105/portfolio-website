@@ -7,7 +7,9 @@ module.exports = {
         body:['Amiri']
       },
       colors: {
-        'custom-blue': '#251d73'
+        'custom-blue': '#251d73',
+        'dark-blue' : '#253368',
+        'light-blue': '#0a6dbf'
       },
       keyframes: {
         float: {
