@@ -6,10 +6,12 @@ burger.addEventListener('click', () => {
     if (menu.classList.contains('hidden')) {
         menu.classList.remove('hidden');
         navbar.classList.add('bg-black');
+        navbar.classList.remove('bg-transparent');
     } else {
         menu.classList.add('hidden');
-        menu.classList.remove('bg-black');
         navbar.classList.remove('bg-black');
+        navbar.classList.add('bg-transparent');
+       
 
     }
 });
@@ -32,11 +34,11 @@ window.addEventListener('scroll', function() {
     const offsetHeight = document.querySelector('header').offsetHeight;
 
     if (window.pageYOffset > offsetHeight) {
-        navbar.classList.remove('md:bg-transparent');
-        navbar.classList.add('md:bg-black', 'md:top-0', 'md:fixed');
+        navbar.classList.remove('bg-transparent');
+        navbar.classList.add('bg-black');
     } else {
-        navbar.classList.remove('md:bg-black', 'md:top-0', 'md:fixed');
-        navbar.classList.add('md:bg-transparent');
+        navbar.classList.remove('bg-black');
+        navbar.classList.add('bg-transparent');
     }
 });
 

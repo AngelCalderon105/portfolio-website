@@ -14,17 +14,17 @@
     <div class = "bg-fixed bg-center bg-cover min-h-screen" style="background-image: url(https://wallpaperaccess.com/full/683917.jpg)" id="home">
     
         <header>
-        <nav class = "transition-all duration-200 ease-in-out bg-black md:bg-transparent fixed md:flex md:justify-end top-0 w-full z-[100] ">
+        <nav class = "transition-all duration-200 ease-in-out fixed md:flex md:justify-end w-full z-[100] ">
             
+            <!-- HAMBUGER -->
             <div class = "p-3 md:hidden" id ="hamburger">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 text-white">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
             </div>
-                <!-- 1024 768 -->
             
-            
-                <ul class = "hidden md:bg-transparent text-white text-xl md:text-3xl md:flex md:justify-end " id = "menu">
+                <!-- MAIN DESKTOP NAV -->
+                <ul class = "hidden text-white text-xl md:text-3xl md:flex md:justify-end " id = "menu">
                     <li class = "p-1 md:p-2 m-2 md:m-4 hover:text-blue-500 transition ease-in-out duration-200">
                         <a href="#section0">Home</a>
                     </li>
@@ -49,25 +49,33 @@
 
         </header> 
 
-   
+        <!-- flex flex-col items-center justify-center md:flex-row  md:pb-0 pb-6  min-h-screen -->
 
-     <div class = "flex flex-col items-center md:flex-row md:justify-center md:pt-52 md:pb-0 pt-28 pb-6 animate-float-image" >
-        <div class = "">
-            <h2 class = "text-7xl text-white my-4 text-center">Angel Calderon</h2>
-            <p class = "text-white text-xl p-2 my-4 text-center">Ambitious Software Developer Ready to Code A Better Future!</p>
-        </div>
+        <div class = "flex flex-col items-center justify-center md:pb-0 pb-6 min-h-screen">
+        <div class = " grid grid-cols-1 " >
+       
+        <!-- HEADING -->
+        <div class = "flex flex-col justify-center animate-float-image">
+            <h2 class = "text-7xl text-white my-2 text-center ">Angel Calderon</h2>
+            <p class = "text-white text-xl p-2 text-center">Ambitious Software Developer Ready to Code A Better Future!</p>
         
-        <div class = "w-48 md:m-5 ">
-        <img class = "max-w-full rounded-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-700 via-dark-blue to-gray-900" src="img/headshot.png" alt="headshot">
         </div>
+       
+        <!-- PORTRAIT PICTURE -->
+        <div class = "flex justify-center md:m-5 animate-float-image">
+        <img class = "w-48 rounded-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-700 via-dark-blue to-gray-900" src="img/headshot.png" alt="headshot">
         </div>
-        
-        <div class = "flex justify-center">
-            <button class = "text-white w-64  border-2 hover:bg-white hover:text-black ease-in duration-300 text-xl">
+       
+        <!-- CONTACT BUTTON -->
+        <div class = "flex justify-center md:col-span-2 pt-6">
+            <button class = "text-white w-60 lg:w-1/2 border-2 hover:bg-white hover:text-black ease-in duration-300 text-xl">
                Contact Me
               </button>
-           
         </div>
+    
+        </div>
+    </div>
+       
     </div>
 
     <!-- BLACK bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black -->
