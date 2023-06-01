@@ -35,16 +35,4 @@ window.addEventListener('scroll', function() {
     }
 });
 
-window.addEventListener("load", setElementHeight);
-window.addEventListener("resize", setElementHeight);
-
-function setElementHeight() {
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-
-    let element = document.getElementById('home');
-    if (element) {
-        element.style.height = 'calc(var(--vh) * 100)';
-    }
-}
 
