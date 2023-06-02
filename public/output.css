@@ -570,10 +570,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-10{
-  margin-bottom: 2.5rem;
-}
-
 .mb-20{
   margin-bottom: 5rem;
 }
@@ -804,6 +800,11 @@ video {
   padding-right: 0.5rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -814,6 +815,10 @@ video {
 
 .pb-6{
   padding-bottom: 1.5rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .pt-12{
