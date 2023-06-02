@@ -1211,6 +1211,17 @@ video {
   .lg\:justify-evenly{
     justify-content: space-evenly;
   }
+
+  .lg\:hover\:scale-110:hover{
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:hover\:border-blue-600:hover{
+    --tw-border-opacity: 1;
+    border-color: rgb(37 99 235 / var(--tw-border-opacity));
+  }
 }
 
 @media (min-width: 1280px){
