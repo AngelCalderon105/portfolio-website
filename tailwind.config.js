@@ -19,9 +19,9 @@ module.exports = {
       },
       animation: {
         'float-image': 'float 2.8s ease-in-out infinite',
-        'float1': 'float 2.8s ease-in-out infinite',
-        'float2': 'float 3s ease-in-out infinite',
-        'float3': 'float 3.2s ease-in-out infinite',
+        'float1': 'float 5.5s ease-in-out infinite',
+        'float2': 'float 6s ease-in-out infinite',
+        'float3': 'float 5s ease-in-out infinite',
 
 
       },

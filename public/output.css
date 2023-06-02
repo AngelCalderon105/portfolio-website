@@ -691,7 +691,7 @@ video {
 }
 
 .animate-float1{
-  animation: float 2.8s ease-in-out infinite;
+  animation: float 5.5s ease-in-out infinite;
 }
 
 @keyframes float{
@@ -705,7 +705,7 @@ video {
 }
 
 .animate-float2{
-  animation: float 3s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
 }
 
 @keyframes float{
@@ -719,7 +719,7 @@ video {
 }
 
 .animate-float3{
-  animation: float 3.2s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
 }
 
 .list-disc{
