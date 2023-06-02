@@ -582,6 +582,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -608,10 +612,6 @@ video {
 
 .mt-4{
   margin-top: 1rem;
-}
-
-.mb-4{
-  margin-bottom: 1rem;
 }
 
 .inline{
@@ -794,10 +794,6 @@ video {
   padding: 0.75rem;
 }
 
-.p-0{
-  padding: 0px;
-}
-
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -808,9 +804,8 @@ video {
   padding-right: 0.5rem;
 }
 
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.pb-10{
+  padding-bottom: 2.5rem;
 }
 
 .pb-3{
@@ -825,24 +820,12 @@ video {
   padding-top: 3rem;
 }
 
-.pt-16{
-  padding-top: 4rem;
-}
-
 .pt-24{
   padding-top: 6rem;
 }
 
 .pt-6{
   padding-top: 1.5rem;
-}
-
-.pb-4{
-  padding-bottom: 1rem;
-}
-
-.pb-10{
-  padding-bottom: 2.5rem;
 }
 
 .text-center{
@@ -940,7 +923,7 @@ video {
 @supports (-webkit-touch-callout: none) {
   /* CSS specific to iOS devices */
 
-  #home {
+  body {
     background-attachment: scroll;
   }
 }
@@ -948,7 +931,7 @@ video {
 @supports not (-webkit-touch-callout: none) {
   /* CSS for other than iOS devices */
 
-  #home {
+  body {
     background-attachment: fixed;
   }
 }
@@ -982,8 +965,8 @@ b {
     grid-column: span 2 / span 2;
   }
 
-  .md\:m-24{
-    margin: 6rem;
+  .md\:m-14{
+    margin: 3.5rem;
   }
 
   .md\:m-4{
@@ -992,18 +975,6 @@ b {
 
   .md\:m-5{
     margin: 1.25rem;
-  }
-
-  .md\:m-14{
-    margin: 3.5rem;
-  }
-
-  .md\:mb-14{
-    margin-bottom: 3.5rem;
-  }
-
-  .md\:mb-4{
-    margin-bottom: 1rem;
   }
 
   .md\:flex{
@@ -1020,11 +991,6 @@ b {
 
   .md\:p-2{
     padding: 0.5rem;
-  }
-
-  .md\:px-20{
-    padding-left: 5rem;
-    padding-right: 5rem;
   }
 
   .md\:px-6{
@@ -1068,14 +1034,6 @@ b {
     margin: 1rem;
   }
 
-  .xl\:m-16{
-    margin: 4rem;
-  }
-
-  .xl\:m-20{
-    margin: 5rem;
-  }
-
   .xl\:my-10{
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
@@ -1083,10 +1041,6 @@ b {
 
   .xl\:mb-10{
     margin-bottom: 2.5rem;
-  }
-
-  .xl\:mt-4{
-    margin-top: 1rem;
   }
 
   .xl\:w-1\/2{
@@ -1112,33 +1066,5 @@ b {
 
   .xl\:pt-16{
     padding-top: 4rem;
-  }
-}
-
-@media (min-width: 1536px){
-  .\32xl\:m-4{
-    margin: 1rem;
-  }
-
-  .\32xl\:my-10{
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .\32xl\:w-1\/2{
-    width: 50%;
-  }
-
-  .\32xl\:flex-row{
-    flex-direction: row;
-  }
-
-  .\32xl\:justify-center{
-    justify-content: center;
-  }
-
-  .\32xl\:px-20{
-    padding-left: 5rem;
-    padding-right: 5rem;
   }
 }
