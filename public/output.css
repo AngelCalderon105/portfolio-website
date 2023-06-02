@@ -695,6 +695,14 @@ video {
   width: 20rem;
 }
 
+.w-5{
+  width: 1.25rem;
+}
+
+.w-4{
+  width: 1rem;
+}
+
 .max-w-lg{
   max-width: 32rem;
 }
@@ -1033,6 +1041,11 @@ video {
 
 .text-xl{
   font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
