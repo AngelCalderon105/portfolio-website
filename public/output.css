@@ -1163,6 +1163,15 @@ video {
     width: 50%;
   }
 
+  .md\:w-96{
+    width: 24rem;
+  }
+
+  .md\:min-w-min{
+    min-width: -moz-min-content;
+    min-width: min-content;
+  }
+
   .md\:max-w-sm{
     max-width: 24rem;
   }
@@ -1214,6 +1223,10 @@ video {
 
   .lg\:w-1\/2{
     width: 50%;
+  }
+
+  .lg\:w-96{
+    width: 24rem;
   }
 
   .lg\:flex-row{
