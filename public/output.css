@@ -610,6 +610,10 @@ video {
   margin-top: 1rem;
 }
 
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .inline{
   display: inline;
 }
@@ -790,6 +794,10 @@ video {
   padding: 0.75rem;
 }
 
+.p-0{
+  padding: 0px;
+}
+
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -798,6 +806,11 @@ video {
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pb-3{
@@ -822,6 +835,14 @@ video {
 
 .pt-6{
   padding-top: 1.5rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
 }
 
 .text-center{
@@ -859,6 +880,10 @@ video {
 
 .font-bold{
   font-weight: 700;
+}
+
+.leading-tight{
+  line-height: 1.25;
 }
 
 .text-white{
@@ -957,6 +982,10 @@ b {
     grid-column: span 2 / span 2;
   }
 
+  .md\:m-24{
+    margin: 6rem;
+  }
+
   .md\:m-4{
     margin: 1rem;
   }
@@ -965,9 +994,16 @@ b {
     margin: 1.25rem;
   }
 
-  .md\:my-10{
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+  .md\:m-14{
+    margin: 3.5rem;
+  }
+
+  .md\:mb-14{
+    margin-bottom: 3.5rem;
+  }
+
+  .md\:mb-4{
+    margin-bottom: 1rem;
   }
 
   .md\:flex{
@@ -978,20 +1014,8 @@ b {
     display: none;
   }
 
-  .md\:w-1\/2{
-    width: 50%;
-  }
-
-  .md\:flex-row{
-    flex-direction: row;
-  }
-
   .md\:justify-end{
     justify-content: flex-end;
-  }
-
-  .md\:justify-center{
-    justify-content: center;
   }
 
   .md\:p-2{
@@ -1001,6 +1025,11 @@ b {
   .md\:px-20{
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .md\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .md\:pb-0{
@@ -1031,5 +1060,85 @@ b {
   .lg\:hover\:border-blue-600:hover{
     --tw-border-opacity: 1;
     border-color: rgb(37 99 235 / var(--tw-border-opacity));
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:m-4{
+    margin: 1rem;
+  }
+
+  .xl\:m-16{
+    margin: 4rem;
+  }
+
+  .xl\:m-20{
+    margin: 5rem;
+  }
+
+  .xl\:my-10{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .xl\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
+  .xl\:mt-4{
+    margin-top: 1rem;
+  }
+
+  .xl\:w-1\/2{
+    width: 50%;
+  }
+
+  .xl\:flex-row{
+    flex-direction: row;
+  }
+
+  .xl\:justify-center{
+    justify-content: center;
+  }
+
+  .xl\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .xl\:pb-0{
+    padding-bottom: 0px;
+  }
+
+  .xl\:pt-16{
+    padding-top: 4rem;
+  }
+}
+
+@media (min-width: 1536px){
+  .\32xl\:m-4{
+    margin: 1rem;
+  }
+
+  .\32xl\:my-10{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .\32xl\:w-1\/2{
+    width: 50%;
+  }
+
+  .\32xl\:flex-row{
+    flex-direction: row;
+  }
+
+  .\32xl\:justify-center{
+    justify-content: center;
+  }
+
+  .\32xl\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
