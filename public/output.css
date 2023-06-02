@@ -687,6 +687,14 @@ video {
   width: 15rem;
 }
 
+.w-3{
+  width: 0.75rem;
+}
+
+.w-80{
+  width: 20rem;
+}
+
 .max-w-lg{
   max-width: 32rem;
 }
@@ -1153,6 +1161,10 @@ video {
 
   .md\:w-1\/2{
     width: 50%;
+  }
+
+  .md\:max-w-sm{
+    max-width: 24rem;
   }
 
   .md\:flex-row{
