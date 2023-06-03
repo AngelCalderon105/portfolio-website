@@ -628,6 +628,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .inline{
   display: inline;
 }
@@ -686,6 +690,14 @@ video {
 
 .w-3\/4{
   width: 75%;
+}
+
+.w-5{
+  width: 1.25rem;
+}
+
+.w-10{
+  width: 2.5rem;
 }
 
 .transform{
@@ -883,6 +895,10 @@ video {
 
 .pt-6{
   padding-top: 1.5rem;
+}
+
+.pt-3{
+  padding-top: 0.75rem;
 }
 
 .text-center{
