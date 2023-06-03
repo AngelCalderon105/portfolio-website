@@ -532,6 +532,14 @@ video {
   z-index: 100;
 }
 
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
+.col-span-3{
+  grid-column: span 3 / span 3;
+}
+
 .m-2{
   margin: 0.5rem;
 }
@@ -568,6 +576,16 @@ video {
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.mx-20{
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .mb-20{
@@ -666,6 +684,10 @@ video {
   width: 50%;
 }
 
+.w-3\/4{
+  width: 75%;
+}
+
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -688,8 +710,17 @@ video {
   list-style-type: disc;
 }
 
+.columns-2{
+  -moz-columns: 2;
+       columns: 2;
+}
+
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -718,6 +749,22 @@ video {
 
 .gap-16{
   gap: 4rem;
+}
+
+.gap-1{
+  gap: 0.25rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.gap-20{
+  gap: 5rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .overflow-hidden{
@@ -809,6 +856,11 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.px-0{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -819,10 +871,6 @@ video {
 
 .pb-6{
   padding-bottom: 1.5rem;
-}
-
-.pt-10{
-  padding-top: 2.5rem;
 }
 
 .pt-12{
@@ -994,6 +1042,10 @@ b {
     display: none;
   }
 
+  .md\:w-1\/2{
+    width: 50%;
+  }
+
   .md\:justify-end{
     justify-content: flex-end;
   }
@@ -1005,6 +1057,36 @@ b {
   .md\:px-6{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:px-36{
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  .md\:px-72{
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .md\:px-52{
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+
+  .md\:px-40{
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .md\:px-60{
+    padding-left: 15rem;
+    padding-right: 15rem;
   }
 
   .md\:pb-0{
@@ -1052,8 +1134,24 @@ b {
     margin-bottom: 2.5rem;
   }
 
+  .xl\:block{
+    display: block;
+  }
+
+  .xl\:flex{
+    display: flex;
+  }
+
   .xl\:w-1\/2{
     width: 50%;
+  }
+
+  .xl\:w-full{
+    width: 100%;
+  }
+
+  .xl\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .xl\:flex-row{
@@ -1064,14 +1162,14 @@ b {
     justify-content: center;
   }
 
-  .xl\:px-20{
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
   .xl\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .xl\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .xl\:pb-0{
