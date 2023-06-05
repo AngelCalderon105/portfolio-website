@@ -540,6 +540,10 @@ video {
   margin: 1rem;
 }
 
+.m-20{
+  margin: 5rem;
+}
+
 .mx-1{
   margin-left: 0.25rem;
   margin-right: 0.25rem;
