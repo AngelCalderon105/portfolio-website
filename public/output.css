@@ -544,6 +544,26 @@ video {
   margin: 5rem;
 }
 
+.m-32{
+  margin: 8rem;
+}
+
+.m-40{
+  margin: 10rem;
+}
+
+.m-80{
+  margin: 20rem;
+}
+
+.m-52{
+  margin: 13rem;
+}
+
+.m-10{
+  margin: 2.5rem;
+}
+
 .mx-1{
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -1048,6 +1068,10 @@ b {
     width: 24rem;
   }
 
+  .sm\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1130,12 +1154,25 @@ b {
 }
 
 @media (min-width: 1024px){
+  .lg\:m-32{
+    margin: 8rem;
+  }
+
+  .lg\:mx-10{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
   .lg\:w-1\/2{
     width: 50%;
   }
 
   .lg\:w-96{
     width: 24rem;
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:hover\:scale-110:hover{
