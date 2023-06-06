@@ -960,10 +960,6 @@ video {
   padding-top: 0.5rem;
 }
 
-.text-left{
-  text-align: left;
-}
-
 .text-center{
   text-align: center;
 }
@@ -1133,10 +1129,6 @@ b {
     margin-top: 1.25rem;
   }
 
-  .md\:block{
-    display: block;
-  }
-
   .md\:flex{
     display: flex;
   }
@@ -1188,14 +1180,6 @@ b {
 
   .md\:pt-5{
     padding-top: 1.25rem;
-  }
-
-  .md\:text-left{
-    text-align: left;
-  }
-
-  .md\:text-center{
-    text-align: center;
   }
 
   .md\:text-3xl{
