@@ -598,6 +598,21 @@ video {
   margin-right: 2.5rem;
 }
 
+.mx-8{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mx-9{
+  margin-left: 2.25rem;
+  margin-right: 2.25rem;
+}
+
+.mx-7{
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+}
+
 .mb-2{
   margin-bottom: 0.5rem;
 }
