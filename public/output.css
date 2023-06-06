@@ -669,6 +669,18 @@ video {
   margin-bottom: 0.25rem;
 }
 
+.mt-7{
+  margin-top: 1.75rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.mt-6{
+  margin-top: 1.5rem;
+}
+
 .block{
   display: block;
 }
@@ -1140,6 +1152,18 @@ b {
 
   .md\:mt-5{
     margin-top: 1.25rem;
+  }
+
+  .md\:mt-10{
+    margin-top: 2.5rem;
+  }
+
+  .md\:mt-8{
+    margin-top: 2rem;
+  }
+
+  .md\:mt-7{
+    margin-top: 1.75rem;
   }
 
   .md\:block{
