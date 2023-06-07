@@ -1305,6 +1305,14 @@ b {
     padding-bottom: 0px;
   }
 
+  .md\:pl-20{
+    padding-left: 5rem;
+  }
+
+  .md\:pl-32{
+    padding-left: 8rem;
+  }
+
   .md\:text-left{
     text-align: left;
   }
@@ -1336,6 +1344,10 @@ b {
 
   .lg\:w-96{
     width: 24rem;
+  }
+
+  .lg\:pl-32{
+    padding-left: 8rem;
   }
 
   .lg\:text-lg{
