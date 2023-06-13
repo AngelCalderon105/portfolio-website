@@ -756,6 +756,10 @@ video {
   width: 5rem;
 }
 
+.w-1{
+  width: 0.25rem;
+}
+
 .min-w-max{
   min-width: -moz-max-content;
   min-width: max-content;
@@ -1327,6 +1331,10 @@ b {
 
   .md\:w-3\/5{
     width: 60%;
+  }
+
+  .md\:w-14{
+    width: 3.5rem;
   }
 
   .md\:justify-end{
