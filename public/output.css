@@ -1478,6 +1478,10 @@ b {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .xl\:gap-44{
+    gap: 11rem;
+  }
+
   .xl\:justify-self-end{
     justify-self: end;
   }
@@ -1502,6 +1506,18 @@ b {
 }
 
 @media (min-width: 1536px){
+  .\32xl\:gap-72{
+    gap: 18rem;
+  }
+
+  .\32xl\:gap-60{
+    gap: 15rem;
+  }
+
+  .\32xl\:gap-64{
+    gap: 16rem;
+  }
+
   .\32xl\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
