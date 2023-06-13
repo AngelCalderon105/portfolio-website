@@ -22,9 +22,8 @@ module.exports = {
         'float1': 'float 5.5s ease-in-out infinite',
         'float2': 'float 6s ease-in-out infinite',
         'float3': 'float 5s ease-in-out infinite',
-
-
       },
+      
       
     },
   },
