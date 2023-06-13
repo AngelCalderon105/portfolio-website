@@ -63,7 +63,7 @@ function hideAllCards() {
 
     });
     items.forEach(item => {
-        item.classList.remove('text-blue-500','underline');
+        item.classList.remove('text-blue-500');
 
     })
 }
@@ -78,17 +78,17 @@ function showCard(card) {
 roleItem.addEventListener('click', () => {
     hideAllCards();
     showCard(roleCard);
-    roleItem.classList.add('text-blue-500','underline');
+    roleItem.classList.add('text-blue-500');
 });
 
 skillsItem.addEventListener('click', () => {
     hideAllCards();
     showCard(skillsCard);
-    skillsItem.classList.add('text-blue-500','underline');
+    skillsItem.classList.add('text-blue-500');
 });
 
 extraCurricularItem.addEventListener('click', () => {
     hideAllCards();
     showCard(extraCurricularCard);
-    extraCurricularItem.classList.add('text-blue-500','underline');
+    extraCurricularItem.classList.add('text-blue-500');
 });
