@@ -879,6 +879,34 @@ video {
   background-position: right top;
 }
 
+.bg-right{
+  background-position: right;
+}
+
+.bg-right-bottom{
+  background-position: right bottom;
+}
+
+.bg-left{
+  background-position: left;
+}
+
+.bg-left-bottom{
+  background-position: left bottom;
+}
+
+.bg-top{
+  background-position: top;
+}
+
+.bg-bottom{
+  background-position: bottom;
+}
+
+.bg-left-top{
+  background-position: left top;
+}
+
 .p-0{
   padding: 0px;
 }
@@ -1225,6 +1253,10 @@ b {
 
   .md\:gap-32{
     gap: 8rem;
+  }
+
+  .md\:bg-right-top{
+    background-position: right top;
   }
 
   .md\:p-2{
