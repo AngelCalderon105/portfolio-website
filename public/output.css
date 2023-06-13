@@ -1207,6 +1207,10 @@ b {
     width: 60%;
   }
 
+  .md\:cursor-pointer{
+    cursor: pointer;
+  }
+
   .md\:justify-end{
     justify-content: flex-end;
   }
