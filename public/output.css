@@ -1380,6 +1380,10 @@ b {
     padding-top: 6rem;
   }
 
+  .md\:pt-5{
+    padding-top: 1.25rem;
+  }
+
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
