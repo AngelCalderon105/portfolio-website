@@ -633,6 +633,10 @@ video {
   margin-top: 1rem;
 }
 
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
 .block{
   display: block;
 }
@@ -932,6 +936,21 @@ video {
   padding-bottom: 2.25rem;
 }
 
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-0{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .pb-1{
   padding-bottom: 0.25rem;
 }
@@ -970,6 +989,14 @@ video {
 
 .pt-9{
   padding-top: 2.25rem;
+}
+
+.pl-2{
+  padding-left: 0.5rem;
+}
+
+.pl-6{
+  padding-left: 1.5rem;
 }
 
 .text-center{
@@ -1131,6 +1158,10 @@ b {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:border-2:hover{
+  border-width: 2px;
+}
+
 .hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1173,9 +1204,29 @@ b {
     margin: 1.25rem;
   }
 
+  .md\:m-auto{
+    margin: auto;
+  }
+
   .md\:mx-0{
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .md\:mt-12{
+    margin-top: 3rem;
+  }
+
+  .md\:mt-24{
+    margin-top: 6rem;
+  }
+
+  .md\:mt-20{
+    margin-top: 5rem;
+  }
+
+  .md\:mt-16{
+    margin-top: 4rem;
   }
 
   .md\:inline{
@@ -1257,6 +1308,22 @@ b {
 
   .md\:pt-5{
     padding-top: 1.25rem;
+  }
+
+  .md\:pt-12{
+    padding-top: 3rem;
+  }
+
+  .md\:pt-20{
+    padding-top: 5rem;
+  }
+
+  .md\:pt-0{
+    padding-top: 0px;
+  }
+
+  .md\:pt-10{
+    padding-top: 2.5rem;
   }
 
   .md\:text-3xl{
