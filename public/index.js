@@ -92,3 +92,5 @@ extraCurricularItem.addEventListener('click', () => {
     showCard(extraCurricularCard);
     extraCurricularItem.classList.add('text-blue-500');
 });
+
+
