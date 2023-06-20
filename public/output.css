@@ -528,6 +528,10 @@ video {
   position: fixed;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .z-\[100\]{
   z-index: 100;
 }
@@ -661,6 +665,14 @@ video {
   display: none;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
+.h-6{
+  height: 1.5rem;
+}
+
 .min-h-full{
   min-height: 100%;
 }
@@ -738,6 +750,30 @@ video {
 
 .animate-float-image{
   animation: float 2.8s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%, 100%{
+    transform: translateY(0);
+  }
+
+  50%{
+    transform: translateY(-30px);
+  }
+}
+
+.animate-float1{
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes pulse{
+  50%{
+    opacity: .5;
+  }
+}
+
+.animate-pulse{
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .list-disc{
@@ -890,6 +926,10 @@ video {
   background-position: right top;
 }
 
+.fill-current{
+  fill: currentColor;
+}
+
 .p-0{
   padding: 0px;
 }
@@ -914,6 +954,11 @@ video {
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-9{
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
 }
 
 .py-1{
@@ -1072,12 +1117,26 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-opacity{
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-200{
   transition-duration: 200ms;
 }
 
 .duration-300{
   transition-duration: 300ms;
+}
+
+.duration-1000{
+  transition-duration: 1000ms;
+}
+
+.duration-100{
+  transition-duration: 100ms;
 }
 
 .ease-in{
@@ -1229,8 +1288,16 @@ b {
     width: 60%;
   }
 
+  .md\:w-4\/5{
+    width: 80%;
+  }
+
   .md\:cursor-pointer{
     cursor: pointer;
+  }
+
+  .md\:items-center{
+    align-items: center;
   }
 
   .md\:justify-end{
@@ -1243,6 +1310,10 @@ b {
 
   .md\:gap-12{
     gap: 3rem;
+  }
+
+  .md\:gap-0{
+    gap: 0px;
   }
 
   .md\:bg-right-top{

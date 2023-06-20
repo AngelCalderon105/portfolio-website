@@ -94,3 +94,43 @@ extraCurricularItem.addEventListener('click', () => {
 });
 
 
+// Get the slides and the buttons
+let slides = Array.from(document.getElementsByClassName('slide'));
+let prevBtn = document.getElementById('prevBtn');
+let nextBtn = document.getElementById('nextBtn');
+
+// Set the current slide index
+let currentSlide = 0;
+
+// Function to update the slide visibility
+function updateSlides() {
+    slides.forEach((slide, index) => {
+        if (index === currentSlide) {
+            slide.classList.remove('hidden');
+            slide.style.animation = 'slideInFromRight .7s forwards';
+        } else {
+            slide.classList.add('hidden');
+        }
+    });
+}
+
+// Event listener for the next button
+nextBtn.addEventListener('click', () => {
+    currentSlide++;
+    if (currentSlide >= slides.length) {
+        currentSlide = 0;
+    }
+    updateSlides();
+});
+
+// Event listener for the previous button
+prevBtn.addEventListener('click', () => {
+    currentSlide--;
+    if (currentSlide < 0) {
+        currentSlide = slides.length - 1;
+    }
+    updateSlides();
+});
+
+// Update the slides initially
+updateSlides();
