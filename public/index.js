@@ -134,3 +134,45 @@ prevBtn.addEventListener('click', () => {
 
 // Update the slides initially
 updateSlides();
+
+//////////////////////////////////////////////////////////////
+// Get the slides and the buttons
+let roleSlides = Array.from(document.getElementsByClassName('roleSlide'));
+let rolePrevBtn = document.getElementById('rolePrevBtn');
+let roleNextBtn = document.getElementById('roleNextBtn');
+
+// Set the current slide index
+let currentRoleSlide = 0;
+
+// Function to update the slide visibility
+function updateRoleSlides() {
+    roleSlides.forEach((slide, index) => {
+        if (index === currentSlide) {
+            slide.classList.remove('hidden');
+            slide.style.animation = 'slideInFromRight .7s forwards';
+        } else {
+            slide.classList.add('hidden');
+        }
+    });
+}
+
+// Event listener for the next button
+roleNextBtn.addEventListener('click', () => {
+    currentSlide++;
+    if (currentSlide >= slides.length) {
+        currentSlide = 0;
+    }
+    updateRoleSlides();
+});
+
+// Event listener for the previous button
+rolePrevBtn.addEventListener('click', () => {
+    currentSlide--;
+    if (currentSlide < 0) {
+        currentSlide = slides.length - 1;
+    }
+    updateRoleSlides();
+});
+
+// Update the slides initially
+updateRoleSlides();

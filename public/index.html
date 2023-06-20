@@ -174,9 +174,9 @@
     <div class="py-9  mx-7 md:m-auto " id = "section3" >
         <h2 class = "text-6xl text-center">Experience</h2>
         <div class = "flex justify-center mt-10">
-        <div class = "grid grid-cols-12 gap-3 max-w-max">
+        <div class = "grid grid-cols-12 gap-10 max-w-max">
         
-            <div class ="pb-5 md:pb-0 col-span-2 mt-12 ">
+            <div class ="pb-5 md:pb-0 col-span-2 mt-14 ">
                 <ul class = "text-2xl lg:text-3xl text-center">
                     <li id="skillsItem" class = "text-blue-500 hover:text-blue-500 transition ease-in-out duration-200 md:cursor-pointer ">Skills</li>
                     <li id="roleItem" class = "hover:text-blue-500 transition ease-in-out duration-200 md:cursor-pointer">Roles</li>
@@ -199,39 +199,58 @@
                                 </svg>
                             </button>
                         </div>
-                        
-                        <div class = " border-2 rounded-xl ">
-                        <div class = "font-bold text-4xl my-2  ml-4">Personal Tutor</div>
-                        <div class = " ml-4 text-xl">
-                            <p><i>May 2022 - Present</i> </p>
-                        </div>
-                        <ul class = " text-xl list-disc m-4 ml-7">
-                        <li class = "pb-3">
-                            Identify and <b>connect</b> with a diverse array of students in need of assistance and reach out to offer mentor-ship/guidance.
-                        </li>
+                        <!-- PERSONAL TUTOR SLIDE -->
+                        <div class = " border-2 rounded-xl roleSlide ">
+                            <div class = "font-bold text-4xl my-2  ml-4">Personal Tutor</div>
+                            <div class = " ml-4 text-xl">
+                                <p><i>May 2022 - Present</i> </p>
+                            </div>
+                            <ul class = " text-xl list-disc m-4 ml-7">
+                            <li class = "pb-3">
+                                Identify and <b>connect</b> with a diverse array of students in need of assistance and reach out to offer mentor-ship/guidance.
+                            </li>
 
-                        <li class = "pb-3">
-                            <b>Offer a multitude of insights</b> and resources across a variety of topics, by scheduling private tutoring/advisement sessions.
-                        </li>
-                        <li>
-                            Regularly evaluate student progress, providing constructive feedback and adjusting strategies to ensure <b>optimal learning</b>.
-                        </li>
-                        </ul>
-                    </div>
-                    <div class = "px-5">
-                        <button id="roleNextBtn" class = "">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-10 hover:text-blue-500 transition ease-in-out duration-200 animate-pulse">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                            </svg>
-                        </button>
-                    </div>
+                            <li class = "pb-3">
+                                <b>Offer a multitude of insights</b> and resources across a variety of topics, by scheduling private tutoring/advisement sessions.
+                            </li>
+                            <li>
+                                Regularly evaluate student progress, providing constructive feedback and adjusting strategies to ensure <b>optimal learning</b>.
+                            </li>
+                            </ul>
+                        </div>
+                            <!-- DOORDASH SLIDE -->
+                        <div id="doorDashSlide" class = "hidden roleSlide border-2 rounded-xl">
+                            <div class = "font-bold text-4xl my-2 ml-4 ">DoorDash Driver</div>
+                            <div class = " ml-4 text-xl">
+                                <p><i>Febuary 2023 - Present</i> </p>
+                            </div>
+                            <ul class = " text-xl list-disc m-4 ml-7">
+                                <li class = "pb-3">
+                                    Share learnings and insights with peers and colleagues, <b>fostering a culture of knowledge</b> sharing and continuous improvement within my ever expanding network.
+                                </li>
+                                <li class = "pb-3">
+                                    Stay informed about the latest industry trends and emerging technologies by <b>actively participating in discussions</b> with software engineers of diverse backgrounds and experience.         
+                                </li>  
+                            </ul>
+
+                        </div>
+
+
+                        <div class = "px-5">
+                            <button id="roleNextBtn" class = "">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-10 hover:text-blue-500 transition ease-in-out duration-200 animate-pulse">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </button>
+                        </div>
                 </div>
                     
                 </div>
                 
                 <!-- SKILL CARD -->
-                <div id="skillsCard" class= "mt-3 md:mt-0">
-                    <div class = "sm:flex sm:justify-center  max-w-5xl ">
+                <div id="skillsCard" class= "mt-3 md:mt-0 ">
+                    <div class = "flex justify-center max-w-4xl ">
+
                         <div>
                         <div class = "text-4xl pb-3 md:pb-2 ">
                         <span class = "block sm:inline">Languages: </span>
