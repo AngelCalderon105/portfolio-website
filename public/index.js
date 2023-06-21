@@ -106,10 +106,10 @@ let currentSlide = 0;
 function updateSlides() {
     slides.forEach((slide, index) => {
         if (index === currentSlide) {
-            slide.classList.remove('hidden');
+            slide.classList.remove('md:hidden');
             slide.style.animation = 'slideInFromRight .7s forwards';
         } else {
-            slide.classList.add('hidden');
+            slide.classList.add('md:hidden');
         }
     });
 }
@@ -148,10 +148,10 @@ let currentRoleSlide = 0;
 function updateRoleSlides() {
     roleSlides.forEach((slide, index) => {
         if (index === currentSlide) {
-            slide.classList.remove('hidden');
+            slide.classList.remove('md:hidden');
             slide.style.animation = 'slideInFromRight .7s forwards';
         } else {
-            slide.classList.add('hidden');
+            slide.classList.add('md:hidden');
         }
     });
 }
