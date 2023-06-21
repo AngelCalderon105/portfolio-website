@@ -532,18 +532,6 @@ video {
   z-index: 100;
 }
 
-.col-span-9{
-  grid-column: span 9 / span 9;
-}
-
-.col-span-10{
-  grid-column: span 10 / span 10;
-}
-
-.col-span-2{
-  grid-column: span 2 / span 2;
-}
-
 .m-2{
   margin: 0.5rem;
 }
@@ -558,14 +546,6 @@ video {
 
 .m-auto{
   margin: auto;
-}
-
-.m-1{
-  margin: 0.25rem;
-}
-
-.m-0{
-  margin: 0px;
 }
 
 .mx-0{
@@ -653,14 +633,6 @@ video {
   margin-top: 1.25rem;
 }
 
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mt-14{
-  margin-top: 3.5rem;
-}
-
 .block{
   display: block;
 }
@@ -746,30 +718,12 @@ video {
   min-width: max-content;
 }
 
-.min-w-min{
-  min-width: -moz-min-content;
-  min-width: min-content;
-}
-
 .max-w-4xl{
   max-width: 56rem;
 }
 
 .max-w-5xl{
   max-width: 64rem;
-}
-
-.max-w-max{
-  max-width: -moz-max-content;
-  max-width: max-content;
-}
-
-.max-w-xl{
-  max-width: 36rem;
-}
-
-.shrink-0{
-  flex-shrink: 0;
 }
 
 .transform{
@@ -832,10 +786,6 @@ video {
   justify-content: center;
 }
 
-.justify-between{
-  justify-content: space-between;
-}
-
 .justify-around{
   justify-content: space-around;
 }
@@ -846,18 +796,6 @@ video {
 
 .gap-12{
   gap: 3rem;
-}
-
-.gap-5{
-  gap: 1.25rem;
-}
-
-.gap-20{
-  gap: 5rem;
-}
-
-.gap-8{
-  gap: 2rem;
 }
 
 .overflow-hidden{
@@ -892,11 +830,6 @@ video {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-red-600{
-  --tw-border-opacity: 1;
-  border-color: rgb(220 38 38 / var(--tw-border-opacity));
 }
 
 .bg-black{
@@ -1012,16 +945,6 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.py-9{
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
-}
-
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .pb-1{
   padding-bottom: 0.25rem;
 }
@@ -1042,6 +965,14 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.pb-9{
+  padding-bottom: 2.25rem;
+}
+
+.pt-14{
+  padding-top: 3.5rem;
+}
+
 .pt-24{
   padding-top: 6rem;
 }
@@ -1056,22 +987,6 @@ video {
 
 .pt-9{
   padding-top: 2.25rem;
-}
-
-.pb-9{
-  padding-bottom: 2.25rem;
-}
-
-.pt-10{
-  padding-top: 2.5rem;
-}
-
-.pt-16{
-  padding-top: 4rem;
-}
-
-.pt-14{
-  padding-top: 3.5rem;
 }
 
 .text-center{
@@ -1129,10 +1044,6 @@ video {
 
 .font-bold{
   font-weight: 700;
-}
-
-.leading-none{
-  line-height: 1;
 }
 
 .leading-tight{
@@ -1275,18 +1186,6 @@ b {
     grid-column: span 2 / span 2;
   }
 
-  .md\:col-span-3{
-    grid-column: span 3 / span 3;
-  }
-
-  .md\:col-span-9{
-    grid-column: span 9 / span 9;
-  }
-
-  .md\:col-span-10{
-    grid-column: span 10 / span 10;
-  }
-
   .md\:m-4{
     margin: 1rem;
   }
@@ -1301,10 +1200,6 @@ b {
 
   .md\:mt-10{
     margin-top: 2.5rem;
-  }
-
-  .md\:mt-14{
-    margin-top: 3.5rem;
   }
 
   .md\:block{
@@ -1331,27 +1226,8 @@ b {
     max-width: 56rem;
   }
 
-  .md\:max-w-max{
-    max-width: -moz-max-content;
-    max-width: max-content;
-  }
-
-  .md\:max-w-min{
-    max-width: -moz-min-content;
-    max-width: min-content;
-  }
-
-  .md\:max-w-fit{
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-  }
-
   .md\:cursor-pointer{
     cursor: pointer;
-  }
-
-  .md\:grid-cols-12{
-    grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
   .md\:flex-row{
@@ -1372,10 +1248,6 @@ b {
 
   .md\:gap-0{
     gap: 0px;
-  }
-
-  .md\:gap-10{
-    gap: 2.5rem;
   }
 
   .md\:bg-right-top{
@@ -1413,11 +1285,6 @@ b {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
 }
 
 @media (min-width: 1024px){
@@ -1429,55 +1296,20 @@ b {
     grid-column: span 2 / span 2;
   }
 
-  .lg\:col-span-3{
-    grid-column: span 3 / span 3;
-  }
-
-  .lg\:col-span-9{
-    grid-column: span 9 / span 9;
-  }
-
   .lg\:mt-14{
     margin-top: 3.5rem;
-  }
-
-  .lg\:flex{
-    display: flex;
   }
 
   .lg\:w-1\/2{
     width: 50%;
   }
 
-  .lg\:max-w-max{
-    max-width: -moz-max-content;
-    max-width: max-content;
-  }
-
-  .lg\:max-w-fit{
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-  }
-
   .lg\:grid-cols-12{
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
-  .lg\:justify-center{
-    justify-content: center;
-  }
-
-  .lg\:gap-0{
-    gap: 0px;
-  }
-
   .lg\:pl-32{
     padding-left: 8rem;
-  }
-
-  .lg\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .lg\:hover\:scale-110:hover{
@@ -1493,24 +1325,12 @@ b {
 }
 
 @media (min-width: 1280px){
-  .xl\:col-span-10{
-    grid-column: span 10 / span 10;
-  }
-
-  .xl\:col-span-2{
-    grid-column: span 2 / span 2;
-  }
-
   .xl\:mb-10{
     margin-bottom: 2.5rem;
   }
 
   .xl\:block{
     display: block;
-  }
-
-  .xl\:flex{
-    display: flex;
   }
 
   .xl\:w-52{
@@ -1531,14 +1351,6 @@ b {
 
   .xl\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .xl\:justify-center{
-    justify-content: center;
-  }
-
-  .xl\:gap-5{
-    gap: 1.25rem;
   }
 
   .xl\:justify-self-end{
@@ -1565,30 +1377,6 @@ b {
 }
 
 @media (min-width: 1536px){
-  .\32xl\:col-span-10{
-    grid-column: span 10 / span 10;
-  }
-
-  .\32xl\:col-span-2{
-    grid-column: span 2 / span 2;
-  }
-
-  .\32xl\:flex{
-    display: flex;
-  }
-
-  .\32xl\:justify-center{
-    justify-content: center;
-  }
-
-  .\32xl\:gap-10{
-    gap: 2.5rem;
-  }
-
-  .\32xl\:gap-5{
-    gap: 1.25rem;
-  }
-
   .\32xl\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;

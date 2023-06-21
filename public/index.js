@@ -147,7 +147,7 @@ let currentRoleSlide = 0;
 // Function to update the slide visibility
 function updateRoleSlides() {
     roleSlides.forEach((slide, index) => {
-        if (index === currentSlide) {
+        if (index === currentRoleSlide) {
             slide.classList.remove('md:hidden');
             slide.style.animation = 'slideInFromRight .7s forwards';
         } else {
@@ -158,18 +158,18 @@ function updateRoleSlides() {
 
 // Event listener for the next button
 roleNextBtn.addEventListener('click', () => {
-    currentSlide++;
-    if (currentSlide >= slides.length) {
-        currentSlide = 0;
+    currentRoleSlide++;
+    if (currentRoleSlide >= roleSlides.length) {
+        currentRoleSlide = 0;
     }
     updateRoleSlides();
 });
 
 // Event listener for the previous button
 rolePrevBtn.addEventListener('click', () => {
-    currentSlide--;
-    if (currentSlide < 0) {
-        currentSlide = slides.length - 1;
+    currentRoleSlide--;
+    if (currentRoleSlide < 0) {
+        currentRoleSlide = roleSlides.length - 1;
     }
     updateRoleSlides();
 });
