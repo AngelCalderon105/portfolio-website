@@ -3,6 +3,9 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
+      width: {
+        '85': '22rem',
+      },
       fontFamily:{
         body:['Amiri']
       },
